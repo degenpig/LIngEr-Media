@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Graphik-Medium-Web";
+  src: url("./assets/font/Graphik-Medium-Web.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Graphik-Regular-Web";
+  src: url("./assets/font/Graphik-Regular-Web.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Monument Extended";
+  src: url("./assets/font/MonumentExtended-Regular.otf") format("otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Graphik-Semibold-Web";
+  src: url("./assets/font/Graphik-Semibold-Web.woff") format('woff');
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
